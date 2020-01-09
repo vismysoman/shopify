@@ -1,0 +1,20 @@
+<apex:page showHeader="false" 
+    sidebar="false" 
+    standardStylesheets="false"
+               standardController="Job_Posting__c"
+               extensions="JobsListController"
+    docType="html-5.0">
+
+<apex:form >
+  <apex:pageBlock title="Active Jobs" >
+  <apex:pageBlockSection >
+  <apex:pageBlockTable value="{!ActiveJobs}" var="lstjobs" >
+      <apex:column value="{!lstjobs.Name}"/>
+      <apex:column value="{!lstjobs.Grade__c}" />
+      <apex:column value="{!lstjobs.Department__c}"/>
+      <apex:column value="{!lstjobs.Job_Location__c}" />
+  </apex:pageBlockTable>
+ </apex:pageBlockSection>
+  </apex:pageBlock>
+    </apex:form>
+</apex:page>
