@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>vismysoman@gmail.com</contactEmail>
+    <label>Shopify Webservice Connected App</label>
+    <oauthConfig>
+        <callbackUrl>https://na174.lightning.force.com/</callbackUrl>
+        <consumerKey>3MVG9LBJLApeX_PCCg.PNBy7QxfTCyVIvMsOKiQpQA5W4jqiB1mj7VtXztrIbF0X2zTFPNmPLGbPb119jvRdh</consumerKey>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>
